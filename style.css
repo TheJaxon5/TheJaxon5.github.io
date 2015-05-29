@@ -1,12 +1,14 @@
 head {
+	
 	background-color: #81DAF5;
+	padding: 200px;
 }
 body {
 	background-color: #81DAF5;
 }
 h2 {
-    font-size: 1.5em;
     background-color: #ccc;
     margin: 20px;
     padding: 40px;
+	background-color: #81DAF5;
 }
