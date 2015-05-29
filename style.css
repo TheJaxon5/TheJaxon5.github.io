@@ -9,4 +9,9 @@ body {
 h2 {
     padding: 40px;
 	background-color: #81DAF5;
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
 }
