@@ -1,13 +1,17 @@
+#Blah {
+	border-radius: 10px;
+}
+
 head {
 	
-	background-color: #81DAF5;
-	padding-left: 200px;
-	text-align: center;
+	background-color: #FFF3C1;
 }
 body {
-	background-color: #81DAF5;
+	background-color: #FFF3C1;
+}
+h1{
+	
 }
 h2 {
-    padding: 40px;
-	background-color: #81DAF5;
+	background-color: #FFF3C1;
 }
