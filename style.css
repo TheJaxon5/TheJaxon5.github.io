@@ -1,16 +1,46 @@
-#Blah {
-	border-radius: 10px;
-}
-nav{
-	li{
-		float: left;
-	}
 
-	a {
-		display: block;
-		width: 60px;
-	}
+.nav ul {
+  background-color: #444;
+  text-align: center;
 }
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  width: 120px;
+  border-bottom: none;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+}
+ 
+.nav a {
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+  .nav li {
+
+  }
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
 
 head {
 	
@@ -19,9 +49,7 @@ head {
 body {
 	background-color: #FFF3C1;
 }
-h1{
-	
-}
+
 h2 {
 	background-color: #FFF3C1;
 }
