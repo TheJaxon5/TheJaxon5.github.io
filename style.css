@@ -28,10 +28,10 @@ h2 {
     text-align: center;
     text-shadow: 3px 2px 3px #333333;
     background-color: #8AD9FF;
-        border-radius: 8px;
+    border-radius: 8px;
 
 #menu ul {
-    height: auto;
+	height: auto;
     padding: 8px 0px;
     margin: 0px;
 }
