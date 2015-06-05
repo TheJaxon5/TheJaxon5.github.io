@@ -15,14 +15,14 @@ h1{
 h2 {
 	background-color: #FFF3C1;
 	font-size: 1.5em;
-	padding-left: 50;
+	padding-left: 200;
 	
 }
 
 #menu {
     width: 700px;
     height: 35px;
-    font-size: 10px;
+    font-size: 25px;
     font-family: Tahoma, Geneva, sans-serif;
     text-align: center;
     text-shadow: 3px 2px 3px #333333;
@@ -37,4 +37,9 @@ h2 {
 #menu li { 
 	display: inline; 
 	padding: 20px; 
+}
+
+#image {
+	padding-left: 100
+	
 }
