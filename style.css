@@ -45,8 +45,5 @@ img {
 }
 
 p {
-	padding-left: 400;
-	padding-right: 400;
-	padding-bottom: 100;
-	padding-top: 100;
+	text-align: center;
 }
