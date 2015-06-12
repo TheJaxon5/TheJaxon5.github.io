@@ -4,7 +4,28 @@
 	<head>
 		<title>The History of Mario</title>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="animations.css">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	</head>
+	
+	<script>
+			$(window).scroll(function() {
+				$('#object').each(function(){
+				var imagePos = $(this).offset().top;
+
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow+400) {
+						$(this).addClass("pulse");
+					}
+				});
+			});
+	</script>
+	
+	<script>
+			$('#object').click(function() {
+				$(this).addClass("pulse");
+			});
+	</script>
 	
 	<body>
 		<nav>
@@ -18,8 +39,9 @@
 				</ul>
 			</div>
 		</nav>
-		
-		<h1>The History of Mario</h1>
+		<div id="object" class="pulse">
+			<h1>The History of Mario</h1>
+		</div>
 
 		<h2> </h2>
 			<img src="http://vignette3.wikia.nocookie.net/fantendo/images/f/f6/MarioHand.png/revision/latest?cb=20110731140119" width="596" height="790"<br> 
