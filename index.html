@@ -8,24 +8,6 @@
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	</head>
 	
-	<script>
-			$(window).scroll(function() {
-				$('#object').each(function(){
-				var imagePos = $(this).offset().top;
-
-				var topOfWindow = $(window).scrollTop();
-					if (imagePos < topOfWindow+400) {
-						$(this).addClass("pulse");
-					}
-				});
-			});
-	</script>
-	
-	<script>
-			$('#object').click(function() {
-				$(this).addClass("pulse");
-			});
-	</script>
 	
 	<body>
 		<nav>
@@ -42,6 +24,25 @@
 		<div id="object" class="pulse">
 			<h1>The History of Mario</h1>
 		</div>
+		
+		<script>
+			$(window).scroll(function() {
+				$('#object').each(function(){
+				var imagePos = $(this).offset().top;
+				
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow+400) {
+						$(this).addClass("pulse");
+					}
+				});
+			});
+		</script>
+	
+		<script>
+			$('#object').click(function() {
+				$(this).addClass("pulse");
+			});
+		</script>
 
 		<h2> </h2>
 			<img src="http://vignette3.wikia.nocookie.net/fantendo/images/f/f6/MarioHand.png/revision/latest?cb=20110731140119" width="596" height="790"<br> 
@@ -49,37 +50,7 @@
 		<p>Mario is a fictional video game character created by Shigeru Miyamoto for the video game company, Nintendo.  Mario's first ever appearance in a video game was Donkey Kong; which was released in 1981 for arcade machines.</p> <br>
 		<img src="http://upload.wikimedia.org/wikipedia/commons/8/88/Donkey_Kong_arcade.jpg" width="298" height="599"<br>
 	
-		<p>Mario has been in many games to date, but here are a few that are <strong>super</strong> memorable.</p>
-		<table>
-			<tr>
-				<td>Super Mario Bros</td>
-				<td>1985</td>
-			</tr>
-			<tr>
-				<td>Super Mario World</td>
-				<td>1990</td>
-			</tr>
-			<tr>
-				<td>Super Smash Bros</td>
-				<td>1999</td>
-			</tr>
-			<tr>
-				<td>Super Mario Galaxy</td>
-				<td>2007</td>
-			</tr>
-		</table>
-				
-			
-		<p>Click here for a full list of <a href="http://en.wikipedia.org/wiki/List_of_video_games_featuring_Mario">Games Featuring Mario</a></p>
-	
-		<p>Through the years, Mario has had many different friends by his side.  Here are just a few that are also major staples in the Mario franchise.</p>
-		<ul>
-			<li>His brother Luigi</li>
-			<li>Princess Peach</li>
-			<li>Toad</li>
-			<li>Yoshi the dinosaur</li>
-		</ul>
-		<br>
+		
 		
 		<h3>Did you enjoy the site?</h4>
 		<p><strong>Comments, ideas, or criticisms are all welcome below</Strong></p>
